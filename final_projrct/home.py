@@ -17,5 +17,5 @@ def app():
     st.info("Semua data curah hujan diukur dalam satuan mm/jam.")
 
  # Load Dataset
-    df = load_data("data/train.csv")
+    df = load_data("data/test.csv")
     st.write(df)
